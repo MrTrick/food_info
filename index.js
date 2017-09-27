@@ -23,7 +23,7 @@ $(document).ready(function() {
     text.trim().split(/\r?\n/).forEach(function(line,n) {
       //Split into fields
       if (!(line = line.trim())) return;
-      var f = line.split('|');
+      var f = line.split('\t');
       if (f.length < 3) { errors.push(name+":"+n+" Must have at least 3 fields with '|' characters between."); return; }
       //Parse fields
       var id=toId(f[0]), title=f[0];
