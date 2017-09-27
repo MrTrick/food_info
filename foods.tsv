@@ -1,10 +1,3 @@
-
-
-
-
-
-
-|good|Vegetable|Bison|good|Meat,Protein
 Alcohol|bad|Beverage|Any alcoholic beverages, beer, wine, spirits
 Almond Milk|good|Milk,Beverage|Almond milk
 Almonds|good|Nut|Almond nuts, almond milk
@@ -15,8 +8,8 @@ Baked Vegetables|good|Vegetable|Baked vegetables|Tomatoes,Potatoes,Eggplant,Caps
 Barley|bad|Grain|Barley grain, beer, some soup
 Beans|good|Legume|Any kind of dried legume, beans, pulses, lentils|Canned Beans
 Beef|bad|Meat,Protein|Beef meat, hamburgers, beef sausages, roast beef, steak, bresaola, beef stew
-Beetroot, Canned|maybe|Vegetable|Canned beetroot may contain grain vinegar and nitrites|Beetroot, Fresh
-Beetroot, Fresh|good|Vegetable|Fresh beetroot|Beetroot, Canned
+Beetroot (Canned)|maybe|Vegetable|Canned beetroot may contain grain vinegar and nitrites|Beetroot (Fresh)
+Beetroot (Fresh)|good|Vegetable|Fresh beetroot|Beetroot (Canned)
 Beets|good|Vegetable
 Black Tea|bad|Beverage|Any kind of black tea or tea-containing blend, english breakfast, chai, earl grey
 Broccoli|good|Vegetable
@@ -36,10 +29,9 @@ Cashews|good|Nut|Cashew nuts
 Cayenne|bad|Seasoning|Cayenne (comes from the pepper family)
 Celery|good|Vegetable
 Cheese|bad|Dairy|Cheese, cottage cheese, mozzarella, burata, parmesan, cheddar, swiss, emmental, pecorino|Goat Cheese
-Chicken, Factory|bad|Meat,Protein|Non free-range Chicken, fed a limited unhealthy diet.
-Chicken, Free Range|good|Meat,Protein|Freshly prepared chicken, roast chicken, bbq chicken, grilled chicken, chicken mince|Cured Meat,Canned Meat,Sausages
-Chicken|good|Meat,Protein|Freshly prepared chicken, roast chicken, bbq chicken, grilled chicken, chicken mince|Cured Meat,Canned Meat,Sausages
-Chilli|bad|Seasoning|Chilli (comes from the pepper family)
+Chicken (Factory)|bad|Meat,Protein|Non free-range Chicken, fed a limited unhealthy diet.
+Chicken (Free Range)|good|Meat,Protein|Freshly prepared chicken, roast chicken, bbq chicken, grilled chicken, chicken mince|Cured Meat,Canned Meat,Sausages
+Chilli|bad|Seasoning|Chilli (comes from the peppers family)
 Citrus|bad|Fruit|All citrus fruits; Oranges, Grapefruits, Lemon, Lime
 Coconut Milk|good|Milk,Beverage|Coconut Milk
 Cod|good|Fish,Protein|Cod|Smoked Fish,Canned Fish
@@ -49,12 +41,10 @@ Corn|bad|Grain|Corn grain, steamed corn, polenta, cornstarch, cornflour, corn sy
 Cucumbers|good|Vegetable
 Cured Meat|bad|Meat,Protein|Any cured meat, cold sliced chicken, cold cuts, cold sliced turkey, roast beef, ham, prosciutto, cabanossi, mortadella, bacon, pancetta, crudo, cotto, aw...
 Dried Fruit|bad|Fruit|Any dried fruits
-Duck, Free Range|good|Meat,Protein
-Duck|good|Meat,Protein
+Duck (Free Range)|good|Meat,Protein
 Eggplant|bad|Vegetable|Eggplant cooked in any way, baba ganoush, lots of other dips
-Eggs, Cage|bad|Protein|From factory chickens, are higher inflammatory ingredients.
-Eggs, Free Range|maybe|Protein|Eggs from free-range chickens, okay in moderation.
-Eggs|bad|Protein|Eggs as an ingredient or cooked any way, boiled egg, mayonnaise, aioli, hollandaise, custard
+Eggs (Cage)|bad|Protein|From factory chickens, higher inflammatory ingredients.
+Eggs (Free Range)|maybe|Protein|Eggs from free-range chickens, okay in moderation.
 Elk|good|Meat,Protein
 Fresh Fish|good|Fish,Protein|All fresh fish such as halibut, salmon, cod, sole, trout, and others.|Canned Fish,Smoked Fish
 Fresh Fruit|good|Fruit|Fresh fruit without added sugar|Citrus,Grapes
@@ -140,4 +130,4 @@ Water-Packed Fruit|good|Fruit|Fruit in water without added sugar|Citrus,Grapes
 Wheat|bad|Grain|Wheat grain, flour, pasta, noodles.
 White Rice|bad|Grain|White rice, prepared in any way.
 Wild Game|good|Meat,Protein|Other meat birds like game hens, etc
-Yoghurt|bad|Dairy|Yoghurt, yogurt, yoghourt, I'm sure it's spelt like one of these
+Yoghurt|bad|Dairy|Yoghurt, yogurt, yoghourt, I'm sure it's spelled like one of these

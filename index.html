@@ -4,51 +4,64 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <style type="text/css">body { padding-top: 5rem; }</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
 
-    <title>Inf.o Inflammation Resource</title>
+    <title>Food Info Inflammation Resource</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Inf.o Inflammation Resource</a>
-    </nav>
-    <!--<form class="form-inline">
-      <div class="input-group">
-        <input id="search" type="text" class="form-control" placeholder="Search..." aria-label="Search...">
-        <span id="btn_reset" class="input-group-btn">
-          <button class="btn btn-secondary" type="button" aria-label="Clear"><span aria-hidden="true">&times;</span></button>
-        </span>
-      </div>
-    </form>-->
+    <div class="container">
+      <div class="mt-1"><h1>Inf.o Inflammation Resource</h1></div>
 
-    <div id="items">
-      <!-- <div class="card border-success mb-3">
-        <div class="card-body">
-          <h4 class="card-title">Success card title <small class="text-success">SAFE</small></h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-          <h6 class="card-text">Exceptions:</h6>
-          <a href="#" class="card-link text-danger">Card link</a>
-          <a href="#" class="card-link text-danger">Another link</a>
+      <form class="form-inline">
+        <div class="input-group">
+          <input id="search" type="text" class="form-control" placeholder="Search..." aria-label="Search...">
+          <!-- <span id="btn_reset" class="input-group-btn">
+            <button class="btn btn-secondary" type="button" aria-label="Clear"><span aria-hidden="true">&times;</span></button>
+          </span> -->
         </div>
-      </div>
-      <div class="card border-danger mb-3">
-        <div class="card-body">
-          <h4 class="card-title">Success card title <small class="text-danger">UNSAFE</small></h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </form>
 
-        </div>
-      </div> -->
+      <div class="row" id="types"></div>
+
+      <hr/>
+
+      <div id="items"></div>
     </div>
 
+  <div id="back-to-top">
+    <a id="button_top" href="#" class="btn btn-link" role="button" title="Back to top"><i class="fa fa-level-up fa-2x"></i></a>
+  </div>
+  <div id="clear-filter">
+    <a id="button_clear" href="#" class="btn btn-link" role="button" title="Clear Filter"><i class="fa fa-window-close fa-2x"></i></a>
+  </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js" integrity="sha256-IyWBFJYclFY8Pn32bwWdSHmV4B9M5mby5bhPHEmeY8w=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.0/jquery.mark.min.js" integrity="sha256-1iYR6/Bs+CrdUVeCpCmb4JcYVWvvCUEgpSU7HS5xhsY=" crossorigin="anonymous"></script>
 
   <script id="foodlist" type="text/tsv" src="./foods.tsv"></script>
+  <script id="template_card" type="text/template">
+    <div id="<%- id %>" class="card <% print(border_class[status]) %> mb-3">'
+      <div class="card-body">
+        <h4 class="card-title"><%- title %> <small class="<% print(label_class[status]) %>"><% print(label[status]) %></small></h4>
+        <h6 class="card-subtitle mb-2 text-muted"><% print(types.join(", ")) %></h6>
+        <p class="card-text"><%- description %></p>
+        <% if (exceptions) { %>
+          <h6 class="card-text">Exceptions:</h6>
+          <% exceptions.forEach(function(ex) { %>
+            <a href="#<%- ex.id %>" class="card-link <% print(exception_class[status])%>"><%- ex.title %></a>
+          <% }); %>
+        <% } %>
+      </div>
+    </div>
+  </script>
+  <script id="template_type" type="text/template">
+    <button type="button" class="btn btn-light filter-type" id="<%- id %>"><%- name %></button>
+  </script>
   <script src="./index.js"></script>
-
   </body>
 </html>
