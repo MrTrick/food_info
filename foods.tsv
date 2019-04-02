@@ -1,133 +1,134 @@
-Alcohol	bad	Beverage	Any alcoholic beverages, beer, wine, spirits	
-Almond Milk	good	Milk,Beverage	Almond milk	
-Almonds	good	Nut	Almond nuts, almond milk	
-Amaranth	good	Grain	Amaranth grain	
-Artichoke	good	Vegetable		
-Asparagus	good	Vegetable		
+title	status	types	description	exceptions
+Alcohol	bad	Beverage	Any alcoholic beverages, beer, wine, spirits
+Almond Milk	good	Milk,Beverage	Almond milk
+Almonds	good	Nut	Almond nuts, almond milk
+Amaranth	good	Grain	Amaranth grain
+Artichoke	good	Vegetable
+Asparagus	good	Vegetable
 Baked Vegetables	good	Vegetable	Baked vegetables	Tomatoes,Potatoes,Eggplant,Capsicum
-Barley	bad	Grain	Barley grain, beer, some soup	
+Barley	bad	Grain	Barley grain, beer, some soup
 Beans	good	Legume	Any kind of dried legume, beans, pulses, lentils	Canned Beans
-Beef	bad	Meat,Protein	Beef meat, hamburgers, beef sausages, roast beef, steak, bresaola, beef stew	
+Beef	bad	Meat,Protein	Beef meat, hamburgers, beef sausages, roast beef, steak, bresaola, beef stew
 Beetroot (Canned)	maybe	Vegetable	Canned beetroot may contain grain vinegar and nitrites	Beetroot (Fresh)
 Beetroot (Fresh)	good	Vegetable	Fresh beetroot	Beetroot (Canned)
-Beets	good	Vegetable		
-Black Tea	bad	Beverage	Any kind of black tea or tea-containing blend, english breakfast, chai, earl grey	
-Broccoli	good	Vegetable		
-Brown Rice Syrup	good	Sweetener	Brown rice syrup	
+Beets	good	Vegetable
+Black Tea	bad	Beverage	Any kind of black tea or tea-containing blend, english breakfast, chai, earl grey
+Broccoli	good	Vegetable
+Brown Rice Syrup	good	Sweetener	Brown rice syrup
 Brown Rice	good	Grain	Brown rice, prepared in any way.	White Rice
-Brussels Sprouts	good	Vegetable		
-Buckwheat	good	Grain	Buckwheat grain	
-Butter	bad	Dairy,Spread	Butter, garlic butter, butter biscuits, shortbread	
-Cabbage	good	Vegetable		
-Canned Beans	bad	Legume	Canned beans? Not sure on this one	
-Canned Fish	bad	Fish,Protein	Any canned fish (sulphites)	
-Canned Meat	bad	Meat,Protein	Any canned meat, spam, canned chicken, blech...	
-Canned Vegetables	bad	Vegetable	Canned or preserved vegetables, pickles, capers, cream of corn	
-Capsicum	bad	Vegetable	Capsicum, bell peppers, red capsicum, yellow capsicum, peperoni	
-Carrots	good	Vegetable		
-Cashews	good	Nut	Cashew nuts	
-Cayenne	bad	Seasoning	Cayenne (comes from the pepper family)	
-Celery	good	Vegetable		
+Brussels Sprouts	good	Vegetable
+Buckwheat	good	Grain	Buckwheat grain
+Butter	bad	Dairy,Spread	Butter, garlic butter, butter biscuits, shortbread
+Cabbage	good	Vegetable
+Canned Beans	bad	Legume	Canned beans? Not sure on this one
+Canned Fish	bad	Fish,Protein	Any canned fish (sulphites)
+Canned Meat	bad	Meat,Protein	Any canned meat, spam, canned chicken, blech...
+Canned Vegetables	bad	Vegetable	Canned or preserved vegetables, pickles, capers, cream of corn
+Capsicum	bad	Vegetable	Capsicum, bell peppers, red capsicum, yellow capsicum, peperoni
+Carrots	good	Vegetable
+Cashews	good	Nut	Cashew nuts
+Cayenne	bad	Seasoning	Cayenne (comes from the pepper family)
+Celery	good	Vegetable
 Cheese	bad	Dairy	Cheese, cottage cheese, mozzarella, burata, parmesan, cheddar, swiss, emmental, pecorino	Goat Cheese
-Chicken (Factory)	bad	Meat,Protein	Non free-range Chicken, fed a limited unhealthy diet.	
+Chicken (Factory)	bad	Meat,Protein	Non free-range Chicken, fed a limited unhealthy diet.
 Chicken (Free Range)	good	Meat,Protein	Freshly prepared chicken, roast chicken, bbq chicken, grilled chicken, chicken mince	Cured Meat,Canned Meat,Sausages
-Chilli	bad	Seasoning	Chilli (comes from the peppers family)	
-Citrus	bad	Fruit	All citrus fruits; Oranges, Grapefruits, Lemon, Lime	
-Coconut Milk	good	Milk,Beverage	Coconut Milk	
+Chilli	bad	Seasoning	Chilli (comes from the peppers family)
+Citrus	bad	Fruit	All citrus fruits; Oranges, Grapefruits, Lemon, Lime
+Coconut Milk	good	Milk,Beverage	Coconut Milk
 Cod	good	Fish,Protein	Cod	Smoked Fish,Canned Fish
-Coffee	bad	Beverage	Coffee, caffe, espresso, macchiato, instant coffee, turkish coffee, greek coffee, iced coffee	
-Corn Syrup	bad	Sweetener	Corn syrup	
-Corn	bad	Grain	Corn grain, steamed corn, polenta, cornstarch, cornflour, corn syrup, maltodextrin	
-Cucumbers	good	Vegetable		
-Cured Meat	bad	Meat,Protein	Any cured meat, cold sliced chicken, cold cuts, cold sliced turkey, roast beef, ham, prosciutto, cabanossi, mortadella, bacon, pancetta, crudo, cotto, aw...	
-Dried Fruit	bad	Fruit	Any dried fruits	
-Duck (Free Range)	good	Meat,Protein		
-Eggplant	bad	Vegetable	Eggplant cooked in any way, baba ganoush, lots of other dips	
-Eggs (Cage)	bad	Protein	From factory chickens, higher inflammatory ingredients.	
-Eggs (Free Range)	maybe	Protein	Eggs from free-range chickens, okay in moderation.	
-Elk	good	Meat,Protein		
+Coffee	bad	Beverage	Coffee, caffe, espresso, macchiato, instant coffee, turkish coffee, greek coffee, iced coffee
+Corn Syrup	bad	Sweetener	Corn syrup
+Corn	bad	Grain	Corn grain, steamed corn, polenta, cornstarch, cornflour, corn syrup, maltodextrin
+Cucumbers	good	Vegetable
+Cured Meat	bad	Meat,Protein	Any cured meat, cold sliced chicken, cold cuts, cold sliced turkey, roast beef, ham, prosciutto, cabanossi, mortadella, bacon, pancetta, crudo, cotto, aw...
+Dried Fruit	bad	Fruit	Any dried fruits
+Duck (Free Range)	good	Meat,Protein
+Eggplant	bad	Vegetable	Eggplant cooked in any way, baba ganoush, lots of other dips
+Eggs (Cage)	bad	Protein	From factory chickens, higher inflammatory ingredients.
+Eggs (Free Range)	maybe	Protein	Eggs from free-range chickens, okay in moderation.
+Elk	good	Meat,Protein
 Fresh Fish	good	Fish,Protein	All fresh fish such as halibut, salmon, cod, sole, trout, and others.	Canned Fish,Smoked Fish
 Fresh Fruit	good	Fruit	Fresh fruit without added sugar	Citrus,Grapes
 Frozen Fruit	good	Fruit	Frozen fruit without added sugar	Citrus,Grapes
-Fruit Drinks	bad	Fruit,Beverage	Sweetened fruit drinks, usually with only a percentage of fruit.	
+Fruit Drinks	bad	Fruit,Beverage	Sweetened fruit drinks, usually with only a percentage of fruit.
 Fruit Juice (Unsweetened)	good	Fruit,Beverage	Juice made from 100% fruit	Citrus,Grapes,Fruit drinks
-Fruit Sweetener	good	Sweetener	Not sure what this is. Stevia? Applesauce?	
-Garlic	good	Vegetable,Seasoning	Garlic, shallots	
-Garlic	maybe	Vegetable,Seasoning	Garlic generally good for you, but personal reactions vary.	
-Gluten Grain	bad	Grain	Any gluten-containing grain, grain vinegar, batter	
-Goat Cheese	maybe	Dairy	Lower levels of lactose than most dairy.	
-Grapes	bad	Fruit	All grapes or grape-containing products	
-Green Beans	good	Vegetable		
-Green Tea	good	Beverage	Allowable in moderation.	
+Fruit Sweetener	good	Sweetener	Not sure what this is. Stevia? Applesauce?
+Garlic	good	Vegetable,Seasoning	Garlic, shallots
+Garlic	maybe	Vegetable,Seasoning	Garlic generally good for you, but personal reactions vary.
+Gluten Grain	bad	Grain	Any gluten-containing grain, grain vinegar, batter
+Goat Cheese	maybe	Dairy	Lower levels of lactose than most dairy.
+Grapes	bad	Fruit	All grapes or grape-containing products
+Green Beans	good	Vegetable
+Green Tea	good	Beverage	Allowable in moderation.
 Grilled Vegetables	good	Vegetable	Vegetables sauted, grilled, stir fried	Tomatoes,Potatoes,Eggplant,Capsicum
 Halibut	good	Fish,Protein	All I said was...	Smoked Fish,Canned Fish
-Herbal Teas	good	Beverage	All herbal teas, not containing black tea leaves, chamomile, rooibos, honeybush, etc	
-Honey	bad	Sweetener	Honey	
-Hummus	good	Nut,Spread	Hummus, Hommous, Hummous, the spelling is as bad as for yoghurt.	
-Ice Cream	bad	Dairy	Ice cream, frozen yoghurt	
-Lamb	good	Meat,Protein		
+Herbal Teas	good	Beverage	All herbal teas, not containing black tea leaves, chamomile, rooibos, honeybush, etc
+Honey	bad	Sweetener	Honey
+Hummus	good	Nut,Spread	Hummus, Hommous, Hummous, the spelling is as bad as for yoghurt.
+Ice Cream	bad	Dairy	Ice cream, frozen yoghurt
+Lamb	good	Meat,Protein
 Lamb	good	Meat,Protein	Lamb meat, roast lamb, lamb mince, lamb leg, lamb shanks	Cured Meat,Canned Meat,Sausages
-Leafy Greans	good	Vegetable	Fresh salad, rocket, aragula, lettuce, bok choy, pak choy, choy sum, chinese broccoli, kale, mustard greens, romaine, spinach	
-Lemonade	bad	Fruit,Beverage	Any soda drinks, lemonade limeade etc.	
-Macadamia Milk	good	Milk,Beverage	Macadamia milk	
+Leafy Greans	good	Vegetable	Fresh salad, rocket, aragula, lettuce, bok choy, pak choy, choy sum, chinese broccoli, kale, mustard greens, romaine, spinach
+Lemonade	bad	Fruit,Beverage	Any soda drinks, lemonade limeade etc.
+Macadamia Milk	good	Milk,Beverage	Macadamia milk
 Mackerel	good	Fish,Protein	Mackerel	Smoked Fish,Canned Fish
-Maple Syrup	bad	Sweetener	Maple syrup	
-Margarine	bad	Fat,Spread	Margarine, shortening, blended butter	
-Milk	bad	Milk,Dairy,Beverage	Dairy milk, cream	
-Millet	good	Grain	Millet grain	
-Molasses	good	Sweetener	Molasses	
+Maple Syrup	bad	Sweetener	Maple syrup
+Margarine	bad	Fat,Spread	Margarine, shortening, blended butter
+Milk	bad	Milk,Dairy,Beverage	Dairy milk, cream
+Millet	good	Grain	Millet grain
+Molasses	good	Sweetener	Molasses
 Most Spices	good	Seasoning	Cinnamon, cumin, dill, ginger, organo, parsley, rosemary, tarragon, thyme, tumeric	Chilli,Paprika,Cayenne
-Mushrooms	good	Vegetable		
+Mushrooms	good	Vegetable
 Nut Butter	maybe	Nut,Spread	Almond Butter, Cashew Butter, Walnut Butter, Sesame Butter, Sunflower Butter, Pumpkin Seed Butter. Calorie-dense.	Peanuts,Pistachios
-Oats	bad	Grain	Oats, rolled oats, meusli, oat porridge, bircher meusli.	
-Okra	good	Vegetable		
-Olive Oil	good	Fat	Olive oil, any kind	
-Paprika	bad	Seasoning	Paprika (comes from the pepper family)	
-Parsnip	good	Vegetable		
-Peanuts	bad	Nut	Peanuts, peanut butter	
-Peas	good	Vegetable		
-Pistachios	bad	Nut	Pistachios	
-Pork	bad	Meat,Protein	Pork meat, roast pork, pork sausages, crackling, pulled pork	
-Potatoes	bad	Vegetable	Potatoes, chips, potato flour, baked potatoes, wedges, hash browns, potato scallops	
-Pumpkin Seeds	good	Nut	Pumpkin Seeds	
-Pumpkin	good	Vegetable		
-Quinoa	maybe	Grain	Quinoa grain, generally good for you. Calorie-dense so in moderation, and if not washed well saponins may irritate stomach	
-Radish	good	Vegetable		
-Raw Sugar	bad	Sweetener	Raw sugar, demerara sugar	
+Oats	bad	Grain	Oats, rolled oats, meusli, oat porridge, bircher meusli.
+Okra	good	Vegetable
+Olive Oil	good	Fat	Olive oil, any kind
+Paprika	bad	Seasoning	Paprika (comes from the pepper family)
+Parsnip	good	Vegetable
+Peanuts	bad	Nut	Peanuts, peanut butter
+Peas	good	Vegetable
+Pistachios	bad	Nut	Pistachios
+Pork	bad	Meat,Protein	Pork meat, roast pork, pork sausages, crackling, pulled pork
+Potatoes	bad	Vegetable	Potatoes, chips, potato flour, baked potatoes, wedges, hash browns, potato scallops
+Pumpkin Seeds	good	Nut	Pumpkin Seeds
+Pumpkin	good	Vegetable
+Quinoa	maybe	Grain	Quinoa grain, generally good for you. Calorie-dense so in moderation, and if not washed well saponins may irritate stomach
+Radish	good	Vegetable
+Raw Sugar	bad	Sweetener	Raw sugar, demerara sugar
 Raw Vegetables	good	Vegetable	Raw fresh vegetables	Tomatoes,Potatoes,Eggplant,Capsicum
-Rice Noodles	bad	Grain	Noodles made from white rice.	
-Rocket	good	Vegetable		
-Rye	bad	Grain	Rye grain, beer, crisp bread, crackers, whiskey.	
-Salad Dressings	bad	Fat,Sauce	Most commercial salad dressings	
+Rice Noodles	bad	Grain	Noodles made from white rice.
+Rocket	good	Vegetable
+Rye	bad	Grain	Rye grain, beer, crisp bread, crackers, whiskey.
+Salad Dressings	bad	Fat,Sauce	Most commercial salad dressings
 Salmon	good	Fish,Protein	Fresh salmon, grilled, baked, steamed, brown rice sushi	Smoked Fish,Canned Fish
-Sausages	bad	Meat,Protein	Any kind of sausages; beef pork chicken lamb	
-Sesame Seeds	good	Nut	Sesame seeds, tahini	
-Shellfish	bad	Fish,Protein	Shellfish, prawns, clams, lobster, crab, scallops	
-Shortening	bad	Fat	Lard, animal shortening, packaged animal fat	
+Sausages	bad	Meat,Protein	Any kind of sausages; beef pork chicken lamb
+Sesame Seeds	good	Nut	Sesame seeds, tahini
+Shellfish	bad	Fish,Protein	Shellfish, prawns, clams, lobster, crab, scallops
+Shortening	bad	Fat	Lard, animal shortening, packaged animal fat
 Smoked Fish	bad	Fish,Protein	Smoked salmon, smoked trout, etc. High in sodium and nitrites.	Fresh Fish
-Soft Drink	bad	Beverage	Any soft drinks, soda water, lemonade, cola	
-Soy Milk	good	Milk,Beverage	Soy milk	
+Soft Drink	bad	Beverage	Any soft drinks, soda water, lemonade, cola
+Soy Milk	good	Milk,Beverage	Soy milk
 Soy	good	Legume	Soy beans, soy milk. (Soy sauce?)	Canned Beans
-Spelt	bad	Grain	Spelt grain.	
-Spinach	good	Vegetable		
-Squash	good	Vegetable		
+Spelt	bad	Grain	Spelt grain.
+Spinach	good	Vegetable
+Squash	good	Vegetable
 Steamed Vegetables	good	Vegetable	Steamed vegetables	Tomatoes,Potatoes,Eggplant,Capsicum
-Sugar	bad	Sweetener	White sugar, brown sugar, glucose syrup, refined sugar	
-Sunflower Seeds	good	Nut	Sunflower Seeds	
-Swedes	good	Vegetable		
+Sugar	bad	Sweetener	White sugar, brown sugar, glucose syrup, refined sugar
+Sunflower Seeds	good	Nut	Sunflower Seeds
+Swedes	good	Vegetable
 Sweet Potatoes	maybe	Vegetable	Sweet potato, yam, kumera, in moderation. High in starch	Canned Vegetables
-Tapioca	good	Grain	Tapioca	
-Teff	good	Grain	Teff grain	
-Tomatoes	maybe	Vegetable	Rich in antioxidants, but quite acidic. Yes I know the tomato is a fruit. Ketchup, tomato sauce, sugo, bolognese	
+Tapioca	good	Grain	Tapioca
+Teff	good	Grain	Teff grain
+Tomatoes	maybe	Vegetable	Rich in antioxidants, but quite acidic. Yes I know the tomato is a fruit. Ketchup, tomato sauce, sugo, bolognese
 Trout	good	Fish,Protein	Fresh trout, grilled, baked, steamed	Smoked Fish
 Tuna	good	Fish,Protein	Fresh Tuna, grilled, baked, steamed, brown rice sushi	Smoked Fish,Canned Fish
 Turkey	good	Meat,Protein	Freshly prepared turkey, roast turkey	Cured Meat,Canned Meat
-Turnips	good	Vegetable		
-Vegetable Oils	good	Fat	Vegetable oils, cold-pressed canola, flax seed oil, safflower oil, sunflower oil, sesame oil, walnut oil, pumpkin oil, almond oil	
-Venison	good	Meat,Protein		
-Walnuts	good	Nut	Walnuts	
+Turnips	good	Vegetable
+Vegetable Oils	good	Fat	Vegetable oils, cold-pressed canola, flax seed oil, safflower oil, sunflower oil, sesame oil, walnut oil, pumpkin oil, almond oil
+Venison	good	Meat,Protein
+Walnuts	good	Nut	Walnuts
 Water-Packed Fruit	good	Fruit	Fruit in water without added sugar	Citrus,Grapes
-Wheat	bad	Grain	Wheat grain, flour, pasta, noodles.	
-White Rice	bad	Grain	White rice, prepared in any way.	
-Wild Game	good	Meat,Protein	Other meat birds like game hens, etc	
-Yoghurt	bad	Dairy	Yoghurt, yogurt, yoghourt, I'm sure it's spelled like one of these	
+Wheat	bad	Grain	Wheat grain, flour, pasta, noodles.
+White Rice	bad	Grain	White rice, prepared in any way.
+Wild Game	good	Meat,Protein	Other meat birds like game hens, etc
+Yoghurt	bad	Dairy	Yoghurt, yogurt, yoghourt, I'm sure it's spelled like one of these
